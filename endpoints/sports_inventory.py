@@ -1,8 +1,6 @@
-import json
-import time
 from fastapi import FastAPI, Depends, HTTPException
 from sqlalchemy.orm import Session
-from database.db_coonect import SessionLocal, engine
+from database.db_connect import SessionLocal, engine
 from models.equip_model import Item, Base
 from schemas.equip_schema import ItemBase, UpdateBase
 

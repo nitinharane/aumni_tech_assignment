@@ -1,7 +1,5 @@
 import json
 import time
-from database.db_coonect import SessionLocal
-from models.equip_model import Item
 from endpoints.SportsEquipmentClient import SportsEquipmentClient
 
 
